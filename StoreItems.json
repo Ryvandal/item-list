@@ -478,37 +478,37 @@
       "abr": "iedtrap",
       "category": "Security",
       "defname": "TrapIED_HighExplosive",
-      "price": 143
+      "price": 192
     },
     {
       "abr": "iedincendiarytrap",
       "category": "Security",
       "defname": "TrapIED_Incendiary",
-      "price": 113
+      "price": 192
     },
     {
       "abr": "iedemptrap",
       "category": "Security",
       "defname": "TrapIED_EMP",
-      "price": 383
+      "price": 192
     },
     {
       "abr": "iedsmoketrap",
       "category": "Security",
       "defname": "TrapIED_Smoke",
-      "price": 132
+      "price": 192
     },
     {
       "abr": "iedfirefoamtrap",
       "category": "Security",
       "defname": "TrapIED_Firefoam",
-      "price": 132
+      "price": 192
     },
     {
       "abr": "iedantigrainwarheadtrap",
       "category": "Security",
       "defname": "TrapIED_AntigrainWarhead",
-      "price": 2508
+      "price": 2008
     },
     {
       "abr": "mini-turret",
@@ -517,7 +517,7 @@
       "price": 492
     },
     {
-      "abr": "81mmmortar",
+      "abr": "mortar",
       "category": "Security",
       "defname": "Turret_Mortar",
       "price": 1500
@@ -865,6 +865,42 @@
       "price": 3
     },
     {
+      "abr": "high-explosiveshell",
+      "category": "Mortar shells",
+      "defname": "Shell_HighExplosive",
+      "price": 92
+    },
+    {
+      "abr": "incendiaryshell",
+      "category": "Mortar shells",
+      "defname": "Shell_Incendiary",
+      "price": 92
+    },
+    {
+      "abr": "empshell",
+      "category": "Mortar shells",
+      "defname": "Shell_EMP",
+      "price": 92
+    },
+    {
+      "abr": "smokeshell",
+      "category": "Mortar shells",
+      "defname": "Shell_Smoke",
+      "price": 92
+    },
+    {
+      "abr": "firefoamshell",
+      "category": "Mortar shells",
+      "defname": "Shell_Firefoam",
+      "price": 92
+    },
+    {
+      "abr": "antigrainwarhead",
+      "category": "Mortar shells",
+      "defname": "Shell_AntigrainWarhead",
+      "price": 2000
+    },
+    {
       "abr": "silver",
       "category": "Raw resources",
       "defname": "Silver",
@@ -1129,22 +1165,22 @@
       "price": 153
     },
     {
-      "abr": "compositehelmet",
+      "abr": "flakhelmet",
       "category": "Headgear",
       "defname": "Apparel_AdvancedHelmet",
-      "price": 280
+      "price": 442
     },
     {
       "abr": "marinehelmet",
       "category": "Headgear",
       "defname": "Apparel_PowerArmorHelmet",
-      "price": 1542
+      "price": 1058
     },
     {
       "abr": "reconhelmet",
       "category": "Headgear",
       "defname": "Apparel_ArmorHelmetRecon",
-      "price": 1317
+      "price": 875
     },
     {
       "abr": "psychicfoilhelmet",
@@ -1186,25 +1222,25 @@
       "abr": "parka",
       "category": "Apparel",
       "defname": "Apparel_Parka",
-      "price": 417
+      "price": 315
     },
     {
       "abr": "pants",
       "category": "Apparel",
       "defname": "Apparel_Pants",
-      "price": 76
+      "price": 143
     },
     {
       "abr": "t-shirt",
       "category": "Apparel",
       "defname": "Apparel_BasicShirt",
-      "price": 76
+      "price": 143
     },
     {
       "abr": "button-downshirt",
       "category": "Apparel",
       "defname": "Apparel_CollarShirt",
-      "price": 100
+      "price": 166
     },
     {
       "abr": "duster",
@@ -1216,7 +1252,7 @@
       "abr": "jacket",
       "category": "Apparel",
       "defname": "Apparel_Jacket",
-      "price": 242
+      "price": 275
     },
     {
       "abr": "platearmor",
@@ -1225,34 +1261,34 @@
       "price": 792
     },
     {
-      "abr": "armorvest",
+      "abr": "flakvest",
       "category": "Armor",
       "defname": "Apparel_FlakVest",
-      "price": 425
+      "price": 375
     },
     {
       "abr": "flakpants",
       "category": "Armor",
       "defname": "Apparel_FlakPants",
-      "price": 268
+      "price": 375
     },
     {
       "abr": "flakjacket",
       "category": "Armor",
       "defname": "Apparel_FlakJacket",
-      "price": 400
+      "price": 483
     },
     {
       "abr": "marinearmor",
       "category": "Armor",
       "defname": "Apparel_PowerArmor",
-      "price": 5250
+      "price": 3392
     },
     {
       "abr": "reconarmor",
       "category": "Armor",
       "defname": "Apparel_ArmorRecon",
-      "price": 3933
+      "price": 2567
     },
     {
       "abr": "sandstoneblocks",
@@ -1333,130 +1369,154 @@
       "price": 322
     },
     {
-      "abr": "rugerredhawk",
+      "abr": "revolver",
       "category": "Ranged weapons",
       "defname": "Gun_Revolver",
-      "price": 244
+      "price": 226
     },
     {
-      "abr": "m1911",
+      "abr": "autopistol",
       "category": "Ranged weapons",
       "defname": "Gun_Autopistol",
-      "price": 281
+      "price": 232
     },
     {
-      "abr": "mac-10",
+      "abr": "machinepistol",
       "category": "Ranged weapons",
       "defname": "Gun_MachinePistol",
-      "price": 508
+      "price": 367
     },
     {
-      "abr": "t-9incendiarylauncher",
+      "abr": "incendiarylauncher",
       "category": "Ranged weapons",
       "defname": "Gun_IncendiaryLauncher",
-      "price": 1308
+      "price": 567
     },
     {
-      "abr": "lee-enfield",
+      "abr": "smokelauncher",
+      "category": "Ranged weapons",
+      "defname": "Gun_SmokeLauncher",
+      "price": 633
+    },
+    {
+      "abr": "emplauncher",
+      "category": "Ranged weapons",
+      "defname": "Gun_EmpLauncher",
+      "price": 842
+    },
+    {
+      "abr": "bolt-actionrifle",
       "category": "Ranged weapons",
       "defname": "Gun_BoltActionRifle",
-      "price": 330
+      "price": 425
     },
     {
-      "abr": "mossberg500",
+      "abr": "pumpshotgun",
       "category": "Ranged weapons",
       "defname": "Gun_PumpShotgun",
-      "price": 273
+      "price": 425
     },
     {
-      "abr": "saiga12k",
+      "abr": "chainshotgun",
       "category": "Ranged weapons",
       "defname": "Gun_ChainShotgun",
-      "price": 458
+      "price": 675
     },
     {
-      "abr": "ump45",
+      "abr": "heavysmg",
       "category": "Ranged weapons",
       "defname": "Gun_HeavySMG",
-      "price": 550
+      "price": 592
     },
     {
-      "abr": "degtyarevdp",
+      "abr": "lmg",
       "category": "Ranged weapons",
       "defname": "Gun_LMG",
-      "price": 750
+      "price": 708
     },
     {
-      "abr": "m16a4",
+      "abr": "assaultrifle",
       "category": "Ranged weapons",
       "defname": "Gun_AssaultRifle",
-      "price": 642
+      "price": 800
     },
     {
-      "abr": "m24",
+      "abr": "sniperrifle",
       "category": "Ranged weapons",
       "defname": "Gun_SniperRifle",
-      "price": 692
+      "price": 883
     },
     {
       "abr": "minigun",
       "category": "Ranged weapons",
       "defname": "Gun_Minigun",
-      "price": 1742
+      "price": 1933
     },
     {
       "abr": "triplerocketlauncher",
       "category": "Ranged weapons",
       "defname": "Gun_TripleRocket",
-      "price": 967
+      "price": 1667
     },
     {
       "abr": "doomsdayrocketlauncher",
       "category": "Ranged weapons",
       "defname": "Gun_DoomsdayRocket",
-      "price": 1200
+      "price": 1667
     },
     {
-      "abr": "fraggrenade",
+      "abr": "fraggrenades",
       "category": "Grenades",
       "defname": "Weapon_GrenadeFrag",
-      "price": 20
+      "price": 442
     },
     {
-      "abr": "molotovcocktail",
+      "abr": "molotovcocktails",
       "category": "Grenades",
       "defname": "Weapon_GrenadeMolotov",
-      "price": 12
+      "price": 408
     },
     {
-      "abr": "empgrenade",
+      "abr": "empgrenades",
       "category": "Grenades",
       "defname": "Weapon_GrenadeEMP",
-      "price": 35
+      "price": 525
     },
     {
       "abr": "shortbow",
       "category": "Ranged weapons",
       "defname": "Bow_Short",
-      "price": 44
+      "price": 74
+    },
+    {
+      "abr": "pila",
+      "category": "Ranged weapons",
+      "defname": "Pila",
+      "price": 182
     },
     {
       "abr": "recurvebow",
       "category": "Ranged weapons",
       "defname": "Bow_Recurve",
-      "price": 80
+      "price": 110
     },
     {
       "abr": "greatbow",
       "category": "Ranged weapons",
       "defname": "Bow_Great",
-      "price": 134
+      "price": 174
     },
     {
-      "abr": "r-15chargerifle",
+      "abr": "chargerifle",
       "category": "Ranged weapons",
       "defname": "Gun_ChargeRifle",
-      "price": 1392
+      "price": 1683
+    },
+    {
+      "abr": "chargelance",
+      "category": "Ranged weapons",
+      "defname": "Gun_ChargeLance",
+      "price": 2258
     },
     {
       "abr": "orbitalbombardmenttargeter",
@@ -1871,372 +1931,6 @@
       "category": "Manufactured",
       "defname": "IsolinearProcessor",
       "price": 10000
-    },
-    {
-      "abr": "psycho",
-      "category": "Drugs",
-      "defname": "Psycho",
-      "price": 12
-    },
-    {
-      "abr": "loadingbench",
-      "category": "Production",
-      "defname": "AmmoBench",
-      "price": 775
-    },
-    {
-      "abr": "gunsmithingbench",
-      "category": "Production",
-      "defname": "GunsmithingBench",
-      "price": 775
-    },
-    {
-      "abr": "chargeblasterauto-turret",
-      "category": "Security",
-      "defname": "Turret_Blaster",
-      "price": 1583
-    },
-    {
-      "abr": "heavyauto-turret",
-      "category": "Security",
-      "defname": "Turret_Heavy",
-      "price": 3583
-    },
-    {
-      "abr": "mediumauto-turret",
-      "category": "Security",
-      "defname": "Turret_Medium",
-      "price": 1250
-    },
-    {
-      "abr": "m240b",
-      "category": "Security",
-      "defname": "Turret_M240B",
-      "price": 800
-    },
-    {
-      "abr": "kpvmachinegun",
-      "category": "Security",
-      "defname": "Turret_KPV",
-      "price": 1383
-    },
-    {
-      "abr": "ags-30",
-      "category": "Security",
-      "defname": "Turret_AGSThirty",
-      "price": 833
-    },
-    {
-      "abr": "90mmflakturret",
-      "category": "Security",
-      "defname": "Turret_Flak",
-      "price": 2325
-    },
-    {
-      "abr": "prometheum",
-      "category": "Raw resources",
-      "defname": "Prometheum",
-      "price": 10
-    },
-    {
-      "abr": "fsx",
-      "category": "Raw resources",
-      "defname": "FSX",
-      "price": 17
-    },
-    {
-      "abr": "tacticalvest",
-      "category": "Loadbearing gear",
-      "defname": "Apparel_TacVest",
-      "price": 248
-    },
-    {
-      "abr": "backpack",
-      "category": "Loadbearing gear",
-      "defname": "Apparel_Backpack",
-      "price": 181
-    },
-    {
-      "abr": "tribalbackpack",
-      "category": "Loadbearing gear",
-      "defname": "Apparel_TribalBackpack",
-      "price": 97
-    },
-    {
-      "abr": "poweredexoframe",
-      "category": "Loadbearing gear",
-      "defname": "Apparel_ExoFrame",
-      "price": 1708
-    },
-    {
-      "abr": "bascinet",
-      "category": "Headgear",
-      "defname": "Apparel_Bascinet",
-      "price": 265
-    },
-    {
-      "abr": "gasmask",
-      "category": "Headgear",
-      "defname": "Apparel_GasMask",
-      "price": 193
-    },
-    {
-      "abr": "improvisedgasmask",
-      "category": "Headgear",
-      "defname": "Apparel_ImprovGasMask",
-      "price": 156
-    },
-    {
-      "abr": "nightvisionmonocular",
-      "category": "Headgear",
-      "defname": "Apparel_SimpleNightVision",
-      "price": 475
-    },
-    {
-      "abr": "advancednightvisiongoggles",
-      "category": "Headgear",
-      "defname": "Apparel_AdvancedNightVision",
-      "price": 683
-    },
-    {
-      "abr": "meleeshield",
-      "category": "Shields",
-      "defname": "Apparel_MeleeShield",
-      "price": 257
-    },
-    {
-      "abr": "ballisticshield",
-      "category": "Shields",
-      "defname": "Apparel_BallisticShield",
-      "price": 417
-    },
-    {
-      "abr": "compositevest",
-      "category": "Armor",
-      "defname": "Apparel_CompositeVest",
-      "price": 442
-    },
-    {
-      "abr": "concussiongrenade",
-      "category": "Grenades",
-      "defname": "Weapon_GrenadeConcussion",
-      "price": 23
-    },
-    {
-      "abr": "flashbanggrenade",
-      "category": "Grenades",
-      "defname": "Weapon_GrenadeFlashbang",
-      "price": 14
-    },
-    {
-      "abr": "stickbomb",
-      "category": "Grenades",
-      "defname": "Weapon_GrenadeStickBomb",
-      "price": 43
-    },
-    {
-      "abr": "smokegrenade",
-      "category": "Grenades",
-      "defname": "Weapon_GrenadeSmoke",
-      "price": 17
-    },
-    {
-      "abr": "firefoamgrenade",
-      "category": "Grenades",
-      "defname": "Weapon_GrenadeFirefoam",
-      "price": 19
-    },
-    {
-      "abr": "m79",
-      "category": "Ranged weapons",
-      "defname": "CE_GrenadeLauncher",
-      "price": 254
-    },
-    {
-      "abr": "m72law",
-      "category": "Ranged weapons",
-      "defname": "CE_DisposableRocketLauncher",
-      "price": 152
-    },
-    {
-      "abr": "flaregun",
-      "category": "Ranged weapons",
-      "defname": "CE_FlareGun",
-      "price": 200
-    },
-    {
-      "abr": "javelins",
-      "category": "Ranged weapons",
-      "defname": "Pila",
-      "price": 12
-    },
-    {
-      "abr": "binoculars",
-      "category": "Ranged weapons",
-      "defname": "Gun_BinocularsRadio",
-      "price": 1083
-    },
-    {
-      "abr": "105mmhowitzer",
-      "category": "Security",
-      "defname": "CE_Artillery_Howitzer",
-      "price": 2417
-    },
-    {
-      "abr": "crossbow",
-      "category": "Ranged weapons",
-      "defname": "CE_Gun_Crossbow",
-      "price": 215
-    },
-    {
-      "abr": "flintlockpistol",
-      "category": "Ranged weapons",
-      "defname": "CE_Gun_FlintlockPistol",
-      "price": 130
-    },
-    {
-      "abr": "flintlockmusket",
-      "category": "Ranged weapons",
-      "defname": "CE_Gun_FlintlockMusket",
-      "price": 383
-    },
-    {
-      "abr": "taurusjudge",
-      "category": "Ranged weapons",
-      "defname": "CE_Gun_TaurusJudge",
-      "price": 213
-    },
-    {
-      "abr": "winchester94",
-      "category": "Ranged weapons",
-      "defname": "CE_Gun_WinchesterNintyFour",
-      "price": 292
-    },
-    {
-      "abr": "usas-12",
-      "category": "Ranged weapons",
-      "defname": "CE_Gun_USASTwelve",
-      "price": 658
-    },
-    {
-      "abr": "fnfal",
-      "category": "Ranged weapons",
-      "defname": "CE_Gun_FNFAL",
-      "price": 650
-    },
-    {
-      "abr": "sks",
-      "category": "Ranged weapons",
-      "defname": "CE_Gun_SKS",
-      "price": 383
-    },
-    {
-      "abr": "ak-47",
-      "category": "Ranged weapons",
-      "defname": "CE_Gun_AKFortySeven",
-      "price": 592
-    },
-    {
-      "abr": "ak-12",
-      "category": "Ranged weapons",
-      "defname": "CE_Gun_AKTwelve",
-      "price": 625
-    },
-    {
-      "abr": "aks-74u",
-      "category": "Ranged weapons",
-      "defname": "CE_Gun_AKSSeventyFourU",
-      "price": 567
-    },
-    {
-      "abr": "svd",
-      "category": "Ranged weapons",
-      "defname": "CE_Gun_SVD",
-      "price": 558
-    },
-    {
-      "abr": "hecateii",
-      "category": "Ranged weapons",
-      "defname": "CE_Gun_HecateTwo",
-      "price": 950
-    },
-    {
-      "abr": "ptrs-41",
-      "category": "Ranged weapons",
-      "defname": "CE_Gun_PTRS",
-      "price": 867
-    },
-    {
-      "abr": "m60e6",
-      "category": "Ranged weapons",
-      "defname": "CE_Gun_MSixty",
-      "price": 850
-    },
-    {
-      "abr": "rpd",
-      "category": "Ranged weapons",
-      "defname": "CE_Gun_RPD",
-      "price": 783
-    },
-    {
-      "abr": "pkm",
-      "category": "Ranged weapons",
-      "defname": "CE_Gun_PKM",
-      "price": 808
-    },
-    {
-      "abr": "rpg-7",
-      "category": "Ranged weapons",
-      "defname": "CE_Gun_RPGSeven",
-      "price": 600
-    },
-    {
-      "abr": "milkormgl",
-      "category": "Ranged weapons",
-      "defname": "CE_Gun_MilkorMGL",
-      "price": 475
-    },
-    {
-      "abr": "p-3chargepistol",
-      "category": "Ranged weapons",
-      "defname": "CE_Gun_ChargePistol",
-      "price": 908
-    },
-    {
-      "abr": "s-9chargeshotgun",
-      "category": "Ranged weapons",
-      "defname": "CE_Gun_ChargeShotgun",
-      "price": 1233
-    },
-    {
-      "abr": "s-14chargesmg",
-      "category": "Ranged weapons",
-      "defname": "CE_Gun_ChargeSMG",
-      "price": 1308
-    },
-    {
-      "abr": "r-11chargesniperrifle",
-      "category": "Ranged weapons",
-      "defname": "CE_Gun_ChargeSniperRifle",
-      "price": 1533
-    },
-    {
-      "abr": "l-20chargelmg",
-      "category": "Ranged weapons",
-      "defname": "CE_Gun_ChargeLMG",
-      "price": 1733
-    },
-    {
-      "abr": "h-12chargeanti-materielrifle",
-      "category": "Ranged weapons",
-      "defname": "CE_Gun_ChargeAMR",
-      "price": 1900
-    },
-    {
-      "abr": "rm2flamethrower",
-      "category": "Ranged weapons",
-      "defname": "CE_Gun_Flamethrower",
-      "price": 475
     },
     {
       "abr": "bionicbrainpal",
@@ -3670,7 +3364,7 @@
       "abr": "pilothelmet",
       "category": "Headgear",
       "defname": "Apparel_PilotHelmet",
-      "price": 508
+      "price": 483
     },
     {
       "abr": "curtain(tribal)(1x1)",
@@ -4699,22 +4393,28 @@
       "price": 6
     },
     {
+      "abr": "luditecannon",
+      "category": "VOSBsecurity",
+      "defname": "VOSB_LuditeCannonBase",
+      "price": 4475
+    },
+    {
       "abr": "bazelbombardier",
       "category": "VOSBsecurity",
       "defname": "VOSB_Bazelbombardier",
-      "price": 3667
+      "price": 5033
     },
     {
       "abr": "seethingbazelbombardier",
       "category": "VOSBsecurity",
       "defname": "VOSB_BazelbombardierIB",
-      "price": 4525
+      "price": 7333
     },
     {
       "abr": "tiro☆finale",
       "category": "VOSBsecurity",
       "defname": "VOSB_TiroFinaleBase",
-      "price": 10058
+      "price": 11292
     },
     {
       "abr": "trebuchet",
@@ -4744,7 +4444,7 @@
       "abr": "skirmisherturret",
       "category": "VOSBsecurity",
       "defname": "VOSB_SkirmisherBase",
-      "price": 91
+      "price": 261
     },
     {
       "abr": "bloodshooter",
@@ -4864,7 +4564,7 @@
       "abr": "crewmatestatue",
       "category": "Art",
       "defname": "VOSB_ImposterBase",
-      "price": 3750
+      "price": 3700
     },
     {
       "abr": "\"thesculpture\"",
@@ -4882,7 +4582,7 @@
       "abr": "devourer",
       "category": "VOSBsecurity",
       "defname": "VOSB_DevourerBase",
-      "price": 2383
+      "price": 2817
     },
     {
       "abr": "quadcannon",
@@ -5035,6 +4735,12 @@
       "price": 1025
     },
     {
+      "abr": "screenerpod",
+      "category": "VOSBsecurity",
+      "defname": "VOSB_Screenerbase",
+      "price": 1700
+    },
+    {
       "abr": "ignitorpod",
       "category": "VOSBsecurity",
       "defname": "VOSB_Ignitorbase",
@@ -5152,7 +4858,7 @@
       "abr": "bastion",
       "category": "VOSBsecurity",
       "defname": "VOSB_BastionBase",
-      "price": 14883
+      "price": 15075
     },
     {
       "abr": "phasedestabilizer",
@@ -6490,7 +6196,7 @@
       "abr": "centipede",
       "category": "Animal",
       "defname": "Mech_Centipede",
-      "price": 2900
+      "price": 2000
     },
     {
       "abr": "lancer",
@@ -6508,428 +6214,14 @@
       "abr": "pikeman",
       "category": "Animal",
       "defname": "Mech_Pikeman",
-      "price": 900
+      "price": 550
     },
     {
       "abr": "termite",
       "category": "Animal",
       "defname": "Mech_Termite",
       "price": 550
-    },
-    {
-      "abr": "jelliedchemfuel",
-      "category": "Flamethrower fuel",
-      "defname": "Ammo_Flamethrower_Napalm",
-      "price": 1
-    },
-    {
-      "abr": "jelliedprometheum",
-      "category": "Flamethrower fuel",
-      "defname": "Ammo_Flamethrower_Prometheum",
-      "price": 1
-    },
-    {
-      "abr": "flareround",
-      "category": "Flare",
-      "defname": "Ammo_Flare",
-      "price": 1
-    },
-    {
-      "abr": "12x64mmchargedcartridge",
-      "category": "12x64mm Charged",
-      "defname": "Ammo_12x64mmCharged",
-      "price": 1
-    },
-    {
-      "abr": "164x284mmdemolitionshell",
-      "category": "164x284mm Demolition Shell",
-      "defname": "Ammo_164x284mmDemo",
-      "price": 18
-    },
-    {
-      "abr": "30x64mmfuelcell(incendiary)",
-      "category": "30x64mm Fuel Cell",
-      "defname": "Ammo_30x64mmFuel_Incendiary",
-      "price": 6
-    },
-    {
-      "abr": "30x64mmfuelcell(thermobaric)",
-      "category": "30x64mm Fuel Cell",
-      "defname": "Ammo_30x64mmFuel_Thermobaric",
-      "price": 10
-    },
-    {
-      "abr": "30x64mmfuelcell(foam)",
-      "category": "30x64mm Fuel Cell",
-      "defname": "Ammo_30x64mmFuel_Foam",
-      "price": 6
-    },
-    {
-      "abr": "5x35mmchargedcartridge",
-      "category": "5x35mm Charged",
-      "defname": "Ammo_5x35mmCharged",
-      "price": 1
-    },
-    {
-      "abr": "80x256mmfuelcell(incendiary)",
-      "category": "80x256mm Fuel Cell",
-      "defname": "Ammo_80x256mmFuel_Incendiary",
-      "price": 18
-    },
-    {
-      "abr": "8mmrailguncartridge(sabot)",
-      "category": "8mm Railgun",
-      "defname": "Ammo_8mmRailgun_Sabot",
-      "price": 1
-    },
-    {
-      "abr": "anti-materielcartridge(fmj)",
-      "category": "Anti-materiel",
-      "defname": "Ammo_AntiMateriel_FMJ",
-      "price": 1
-    },
-    {
-      "abr": "chargedpistolcartridge",
-      "category": "Charged Pistol Ammo",
-      "defname": "Ammo_PistolCharged",
-      "price": 1
-    },
-    {
-      "abr": "chargedpistolcartridge(ion)",
-      "category": "Charged Pistol Ammo",
-      "defname": "Ammo_PistolCharged_Ion",
-      "price": 1
-    },
-    {
-      "abr": "chargedriflecartridge",
-      "category": "Charged Rifle Ammo",
-      "defname": "Ammo_RifleCharged",
-      "price": 1
-    },
-    {
-      "abr": "chargedriflecartridge(ion)",
-      "category": "Charged Rifle Ammo",
-      "defname": "Ammo_RifleCharged_Ion",
-      "price": 1
-    },
-    {
-      "abr": "heavychargedcartridge",
-      "category": "Heavy Charged Ammo",
-      "defname": "Ammo_HeavyCharged",
-      "price": 10
-    },
-    {
-      "abr": "heavychargedcartridge(ion)",
-      "category": "Heavy Charged Ammo",
-      "defname": "Ammo_HeavyCharged_Ion",
-      "price": 10
-    },
-    {
-      "abr": "chargedshotgunshell",
-      "category": "Charged Shotgun Ammo",
-      "defname": "Ammo_ShotgunCharged",
-      "price": 8
-    },
-    {
-      "abr": "chargedshotgunshell(ionshot)",
-      "category": "Charged Shotgun Ammo",
-      "defname": "Ammo_ShotgunCharged_Ion",
-      "price": 8
-    },
-    {
-      "abr": "launchergrenade(he)",
-      "category": "Launcher Grenade",
-      "defname": "Ammo_LauncherGrenade_HE",
-      "price": 4
-    },
-    {
-      "abr": "launchergrenade(hedp)",
-      "category": "Launcher Grenade",
-      "defname": "Ammo_LauncherGrenade_HEDP",
-      "price": 5
-    },
-    {
-      "abr": "launchergrenade(emp)",
-      "category": "Launcher Grenade",
-      "defname": "Ammo_LauncherGrenade_EMP",
-      "price": 8
-    },
-    {
-      "abr": "launchergrenade(smoke)",
-      "category": "Launcher Grenade",
-      "defname": "Ammo_LauncherGrenade_Smoke",
-      "price": 3
-    },
-    {
-      "abr": "pistolcartridge(fmj)",
-      "category": "Pistol ammo",
-      "defname": "Ammo_Pistol_FMJ",
-      "price": 1
-    },
-    {
-      "abr": "magnumpistolcartridge(fmj)",
-      "category": "Magnum pistol ammo",
-      "defname": "Ammo_PistolMagnum_FMJ",
-      "price": 1
-    },
-    {
-      "abr": "riflecartridge(fmj)",
-      "category": "Full power rifle ammo",
-      "defname": "Ammo_Rifle_FMJ",
-      "price": 1
-    },
-    {
-      "abr": "intermediateriflecartridge(fmj)",
-      "category": "Intermediate rifle ammo",
-      "defname": "Ammo_RifleIntermediate_FMJ",
-      "price": 1
-    },
-    {
-      "abr": "shotgunshell(buck)",
-      "category": "Shotgun ammo",
-      "defname": "Ammo_Shotgun_Buck",
-      "price": 1
-    },
-    {
-      "abr": "shotgunshell(emp)",
-      "category": "Shotgun ammo",
-      "defname": "Ammo_Shotgun_ElectroSlug",
-      "price": 1
-    },
-    {
-      "abr": "crossbowbolt",
-      "category": "Crossbow bolts",
-      "defname": "Ammo_CrossbowBolt_Stone",
-      "price": 1
-    },
-    {
-      "abr": "crossbowbolt(steel)",
-      "category": "Crossbow bolts",
-      "defname": "Ammo_CrossbowBolt_Steel",
-      "price": 1
-    },
-    {
-      "abr": "crossbowbolt(plasteel)",
-      "category": "Crossbow bolts",
-      "defname": "Ammo_CrossbowBolt_Plasteel",
-      "price": 7
-    },
-    {
-      "abr": "crossbowbolt(venom)",
-      "category": "Crossbow bolts",
-      "defname": "Ammo_CrossbowBolt_Venom",
-      "price": 6
-    },
-    {
-      "abr": "crossbowbolt(flame)",
-      "category": "Crossbow bolts",
-      "defname": "Ammo_CrossbowBolt_Flame",
-      "price": 2
-    },
-    {
-      "abr": "musketball",
-      "category": "Musket ball",
-      "defname": "Ammo_MusketBall",
-      "price": 1
-    },
-    {
-      "abr": "arrow(stone)",
-      "category": "Arrows",
-      "defname": "Ammo_Arrow_Stone",
-      "price": 1
-    },
-    {
-      "abr": "arrow(steel)",
-      "category": "Arrows",
-      "defname": "Ammo_Arrow_Steel",
-      "price": 1
-    },
-    {
-      "abr": "arrow(plasteel)",
-      "category": "Arrows",
-      "defname": "Ammo_Arrow_Plasteel",
-      "price": 2
-    },
-    {
-      "abr": "arrow(venom)",
-      "category": "Arrows",
-      "defname": "Ammo_Arrow_Venom",
-      "price": 4
-    },
-    {
-      "abr": "arrow(flame)",
-      "category": "Arrows",
-      "defname": "Ammo_Arrow_Flame",
-      "price": 2
-    },
-    {
-      "abr": "greatarrow(stone)",
-      "category": "Great arrows",
-      "defname": "Ammo_GreatArrow_Stone",
-      "price": 1
-    },
-    {
-      "abr": "greatarrow(steel)",
-      "category": "Great arrows",
-      "defname": "Ammo_GreatArrow_Steel",
-      "price": 1
-    },
-    {
-      "abr": "greatarrow(plasteel)",
-      "category": "Great arrows",
-      "defname": "Ammo_GreatArrow_Plasteel",
-      "price": 5
-    },
-    {
-      "abr": "greatarrow(venom)",
-      "category": "Great arrows",
-      "defname": "Ammo_GreatArrow_Venom",
-      "price": 8
-    },
-    {
-      "abr": "greatarrow(flame)",
-      "category": "Great arrows",
-      "defname": "Ammo_GreatArrow_Flame",
-      "price": 2
-    },
-    {
-      "abr": "rpg-7grenade(heat)",
-      "category": "RPG-7 grenades",
-      "defname": "Ammo_RPG7Grenade_HEAT",
-      "price": 96
-    },
-    {
-      "abr": "rpg-7grenade(thermobaric)",
-      "category": "RPG-7 grenades",
-      "defname": "Ammo_RPG7Grenade_Thermobaric",
-      "price": 206
-    },
-    {
-      "abr": "rpg-7grenade(frag)",
-      "category": "RPG-7 grenades",
-      "defname": "Ammo_RPG7Grenade_Frag",
-      "price": 65
-    },
-    {
-      "abr": "105mmhowitzershell(he)",
-      "category": "105mm Howitzer shell",
-      "defname": "Ammo_105mmHowitzerShell_HE",
-      "price": 240
-    },
-    {
-      "abr": "105mmhowitzershell(incendiary)",
-      "category": "105mm Howitzer shell",
-      "defname": "Ammo_105mmHowitzerShell_Incendiary",
-      "price": 196
-    },
-    {
-      "abr": "105mmhowitzershell(emp)",
-      "category": "105mm Howitzer shell",
-      "defname": "Ammo_105mmHowitzerShell_EMP",
-      "price": 400
-    },
-    {
-      "abr": "105mmhowitzershell(smoke)",
-      "category": "105mm Howitzer shell",
-      "defname": "Ammo_105mmHowitzerShell_Smoke",
-      "price": 190
-    },
-    {
-      "abr": "60mmmortarshell(he)",
-      "category": "60mm mortar shell",
-      "defname": "Shell_60mmMortar_HE",
-      "price": 49
-    },
-    {
-      "abr": "60mmmortarshell(incendiary)",
-      "category": "60mm mortar shell",
-      "defname": "Shell_60mmMortar_Incendiary",
-      "price": 39
-    },
-    {
-      "abr": "60mmmortarshell(emp)",
-      "category": "60mm mortar shell",
-      "defname": "Shell_60mmMortar_EMP",
-      "price": 78
-    },
-    {
-      "abr": "60mmmortarshell(foam)",
-      "category": "60mm mortar shell",
-      "defname": "Shell_60mmMortar_Firefoam",
-      "price": 40
-    },
-    {
-      "abr": "60mmmortarshell(smoke)",
-      "category": "60mm mortar shell",
-      "defname": "Shell_60mmMortar_Smoke",
-      "price": 37
-    },
-    {
-      "abr": "81mmmortarshell(he)",
-      "category": "81mm mortar shell",
-      "defname": "Shell_HighExplosive",
-      "price": 92
-    },
-    {
-      "abr": "81mmmortarshell(incendiary)",
-      "category": "81mm mortar shell",
-      "defname": "Shell_Incendiary",
-      "price": 71
-    },
-    {
-      "abr": "81mmmortarshell(emp)",
-      "category": "81mm mortar shell",
-      "defname": "Shell_EMP",
-      "price": 187
-    },
-    {
-      "abr": "81mmmortarshell(foam)",
-      "category": "81mm mortar shell",
-      "defname": "Shell_Firefoam",
-      "price": 62
-    },
-    {
-      "abr": "81mmmortarshell(smoke)",
-      "category": "81mm mortar shell",
-      "defname": "Shell_Smoke",
-      "price": 62
-    },
-    {
-      "abr": "81mmmortarshell(anti)",
-      "category": "81mm mortar shell",
-      "defname": "Shell_AntigrainWarhead",
-      "price": 2500
-    },
-    {
-      "abr": "90mmcannonshell(heat)",
-      "category": "90mm cannon shell",
-      "defname": "Ammo_90mmCannonShell_HEAT",
-      "price": 155
-    },
-    {
-      "abr": "90mmcannonshell(he)",
-      "category": "90mm cannon shell",
-      "defname": "Ammo_90mmCannonShell_HE",
-      "price": 183
-    },
-    {
-      "abr": "90mmcannonshell(hetimefuzed)",
-      "category": "90mm cannon shell",
-      "defname": "Ammo_90mmCannonShell_HE_TFuzed",
-      "price": 233
-    },
-    {
-      "abr": "90mmcannonshell(emp)",
-      "category": "90mm cannon shell",
-      "defname": "Ammo_90mmCannonShell_EMP",
-      "price": 268
-    },
-    {
-      "abr": "nanobots(mt)cartridge",
-      "category": "Nanobots (MicroTurret)",
-      "defname": "Ammo_NanobotsMicroTurret",
-      "price": 4
     }
   ],
-  "total": 1155
+  "total": 1037
 }
